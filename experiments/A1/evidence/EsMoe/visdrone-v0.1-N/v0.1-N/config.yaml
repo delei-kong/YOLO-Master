@@ -1,0 +1,91 @@
+_wandb:
+    value:
+        cli_version: 0.28.1
+        e:
+            jtcjjjxseqmlugvkyvr6ll35kncvkt0f:
+                args:
+                    - --model
+                    - v0.1-N
+                    - --epochs
+                    - "200"
+                    - --batch
+                    - "32"
+                    - --device
+                    - "0"
+                codePath: scripts/reproduce/reproduce_visdrone.py
+                codePathLocal: scripts/reproduce/reproduce_visdrone.py
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "31526391808"
+                        used: "18983129088"
+                email: 1078644454@qq.com
+                executable: /opt/conda/envs/yolo_master/bin/python
+                git:
+                    commit: 140d4706b87bb295e33a6d7a87d88ba0a17516f5
+                    remote: git@github.com:delei-kong/YOLO-Master.git
+                gpu: NVIDIA GeForce RTX 4090
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 16384
+                      memoryTotal: "25757220864"
+                      name: NVIDIA GeForce RTX 4090
+                      uuid: GPU-978e6f4c-ae45-b046-00f3-a2bc0423d217
+                host: gpufree-container
+                memory:
+                    total: "540683489280"
+                os: Linux-5.15.0-179-generic-x86_64-with-glibc2.31
+                program: /root/workspace/YOLO-Master/scripts/reproduce/reproduce_visdrone.py
+                python: CPython 3.11.15
+                root: /root/workspace/YOLO-Master
+                startedAt: "2026-07-23T05:00:37.190970Z"
+                writerId: jtcjjjxseqmlugvkyvr6ll35kncvkt0f
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 71
+                - 98
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 71
+                - 98
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.11.15
+            "5": 0.28.1
+            "6": 5.14.1
+            "10":
+                - 20
+            "12": 0.28.1
+            "13": linux-x86_64
+batch:
+    value: 32
+cfg:
+    value: ultralytics/cfg/models/master/v0_1/det/yolo-master-n.yaml
+data:
+    value: VisDrone.yaml
+dataset:
+    value: VisDrone
+dense_val:
+    value: false
+epochs:
+    value: 200
+imgsz:
+    value: 640
+model:
+    value: v0.1-N
+seed:
+    value: 42

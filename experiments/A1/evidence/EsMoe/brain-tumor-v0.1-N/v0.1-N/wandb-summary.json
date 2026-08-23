@@ -1,0 +1,1 @@
+{"train/box_loss":0.77272,"epoch":200,"mAP50-95":0.33155,"val/box_loss":0.98047,"train/moe_loss":0.99929,"_runtime":2816.663704696,"_wandb":{"runtime":2816},"val/cls_loss":1.49745,"val/moe_loss":0,"_timestamp":1.7847416256991916e+09,"_step":200,"mAP50":0.45967,"train/cls_loss":0.66919}

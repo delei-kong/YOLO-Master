@@ -1,0 +1,254 @@
+{
+  "model": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/pahse0-baseline-train/balance-loss-1.0/VisDrone_EsMoE-N/weights/last.pt",
+  "image": "/root/gpufree-data/datasets/VisDrone/images/test/0000006_00159_d_0000001.jpg",
+  "layer": null,
+  "heatmaps": {
+    "model.3": {
+      "layer_name": "model.3",
+      "module_type": "ES_MOE",
+      "probability_shape": [
+        1,
+        3,
+        160,
+        160
+      ],
+      "assignment_shape": [
+        1,
+        160,
+        160
+      ],
+      "mean_usage": [
+        0.3265201151371002,
+        0.3365338444709778,
+        0.33694595098495483
+      ],
+      "visualization_type": "spatial_heatmap"
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "module_type": "ES_MOE",
+      "probability_shape": [
+        1,
+        3,
+        80,
+        80
+      ],
+      "assignment_shape": [
+        1,
+        80,
+        80
+      ],
+      "mean_usage": [
+        0.34144288301467896,
+        0.3291085362434387,
+        0.3294486701488495
+      ],
+      "visualization_type": "spatial_heatmap"
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "module_type": "ES_MOE",
+      "probability_shape": [
+        1,
+        3,
+        40,
+        40
+      ],
+      "assignment_shape": [
+        1,
+        40,
+        40
+      ],
+      "mean_usage": [
+        0.3454247713088989,
+        0.33139270544052124,
+        0.32318252325057983
+      ],
+      "visualization_type": "spatial_heatmap"
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "module_type": "ES_MOE",
+      "probability_shape": [
+        1,
+        3,
+        20,
+        20
+      ],
+      "assignment_shape": [
+        1,
+        20,
+        20
+      ],
+      "mean_usage": [
+        0.34462112188339233,
+        0.34215763211250305,
+        0.3132212460041046
+      ],
+      "visualization_type": "spatial_heatmap"
+    }
+  },
+  "visualizations": {
+    "model.3": {
+      "confidence_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_3_confidence_heatmap.png",
+      "assignment_map": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_3_assignment_map.png",
+      "expert_0_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_3_expert_0_heatmap.png",
+      "expert_1_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_3_expert_1_heatmap.png",
+      "expert_2_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_3_expert_2_heatmap.png",
+      "dashboard": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_3_routing_dashboard.png"
+    },
+    "model.6": {
+      "confidence_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_6_confidence_heatmap.png",
+      "assignment_map": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_6_assignment_map.png",
+      "expert_0_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_6_expert_0_heatmap.png",
+      "expert_1_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_6_expert_1_heatmap.png",
+      "expert_2_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_6_expert_2_heatmap.png",
+      "dashboard": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_6_routing_dashboard.png"
+    },
+    "model.9": {
+      "confidence_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_9_confidence_heatmap.png",
+      "assignment_map": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_9_assignment_map.png",
+      "expert_0_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_9_expert_0_heatmap.png",
+      "expert_1_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_9_expert_1_heatmap.png",
+      "expert_2_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_9_expert_2_heatmap.png",
+      "dashboard": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_9_routing_dashboard.png"
+    },
+    "model.12": {
+      "confidence_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_12_confidence_heatmap.png",
+      "assignment_map": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_12_assignment_map.png",
+      "expert_0_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_12_expert_0_heatmap.png",
+      "expert_1_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_12_expert_1_heatmap.png",
+      "expert_2_heatmap": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_12_expert_2_heatmap.png",
+      "dashboard": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/routing/interpreter_output/model_12_routing_dashboard.png"
+    }
+  },
+  "summaries": [
+    {
+      "layer_name": "model.3",
+      "module_type": "ES_MOE",
+      "num_experts": 3,
+      "top_k": 2,
+      "expert_usage": [
+        0.3265201449394226,
+        0.33653387427330017,
+        0.3369459807872772
+      ],
+      "mean_router_probs": [
+        0.3265201449394226,
+        0.33653387427330017,
+        0.3369459807872772
+      ],
+      "aux_loss": 1.0001682043075562
+    },
+    {
+      "layer_name": "model.6",
+      "module_type": "ES_MOE",
+      "num_experts": 3,
+      "top_k": 2,
+      "expert_usage": [
+        0.34144285321235657,
+        0.32910850644111633,
+        0.3294486403465271
+      ],
+      "mean_router_probs": [
+        0.34144285321235657,
+        0.32910850644111633,
+        0.3294486403465271
+      ],
+      "aux_loss": 1.0000405311584473
+    },
+    {
+      "layer_name": "model.9",
+      "module_type": "ES_MOE",
+      "num_experts": 3,
+      "top_k": 2,
+      "expert_usage": [
+        0.3454247713088989,
+        0.33139270544052124,
+        0.32318252325057983
+      ],
+      "mean_router_probs": [
+        0.3454247713088989,
+        0.33139270544052124,
+        0.32318252325057983
+      ],
+      "aux_loss": 1.0003533363342285
+    },
+    {
+      "layer_name": "model.12",
+      "module_type": "ES_MOE",
+      "num_experts": 3,
+      "top_k": 2,
+      "expert_usage": [
+        0.34462112188339233,
+        0.34215763211250305,
+        0.3132212460041046
+      ],
+      "mean_router_probs": [
+        0.34462112188339233,
+        0.34215763211250305,
+        0.3132212460041046
+      ],
+      "aux_loss": 1.0000780820846558
+    }
+  ],
+  "collapse": {
+    "model.3": {
+      "layer_name": "model.3",
+      "expert_usage": [
+        0.3265201449394226,
+        0.33653387427330017,
+        0.3369459807872772
+      ],
+      "dominant_expert": 2,
+      "dominant_share": 0.3369459807872772,
+      "normalized_gini": 0.010425835847854614,
+      "normalized_entropy": 0.9999044873686569,
+      "dead_experts": [],
+      "collapsed": false
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "expert_usage": [
+        0.34144285321235657,
+        0.32910850644111633,
+        0.3294486403465271
+      ],
+      "dominant_expert": 0,
+      "dominant_share": 0.34144285321235657,
+      "normalized_gini": 0.012334346771240456,
+      "normalized_entropy": 0.999865768500076,
+      "dead_experts": [],
+      "collapsed": false
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "expert_usage": [
+        0.3454247713088989,
+        0.33139270544052124,
+        0.32318252325057983
+      ],
+      "dominant_expert": 0,
+      "dominant_share": 0.3454247713088989,
+      "normalized_gini": 0.022242248058319314,
+      "normalized_entropy": 0.999655464102404,
+      "dead_experts": [],
+      "collapsed": false
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "expert_usage": [
+        0.34462112188339233,
+        0.34215763211250305,
+        0.3132212460041046
+      ],
+      "dominant_expert": 0,
+      "dominant_share": 0.34462112188339233,
+      "normalized_gini": 0.03139987587928783,
+      "normalized_entropy": 0.9991588353456925,
+      "dead_experts": [],
+      "collapsed": false
+    }
+  },
+  "causal": null
+}

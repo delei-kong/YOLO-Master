@@ -1,0 +1,296 @@
+{
+  "model": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/\u5b9e\u9a8c\u8bb0\u5f55/exp1/weights/last.pt",
+  "dataset": "VisDrone.yaml",
+  "num_samples": 208,
+  "sparse_topk": {
+    "model.3": {
+      "layer_name": "model.3",
+      "module_type": "ES_MOE",
+      "num_experts": 4,
+      "top_k": 2,
+      "num_samples": 208,
+      "expert_hit_counts": [
+        208,
+        208,
+        0,
+        0
+      ],
+      "expert_hit_percentages": [
+        100.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "co_occurrence_matrix": [
+        [
+          208,
+          208,
+          0,
+          0
+        ],
+        [
+          208,
+          208,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "module_type": "ES_MOE",
+      "num_experts": 4,
+      "top_k": 2,
+      "num_samples": 208,
+      "expert_hit_counts": [
+        208,
+        0,
+        0,
+        208
+      ],
+      "expert_hit_percentages": [
+        100.0,
+        0.0,
+        0.0,
+        100.0
+      ],
+      "co_occurrence_matrix": [
+        [
+          208,
+          0,
+          0,
+          208
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          208,
+          0,
+          0,
+          208
+        ]
+      ]
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "module_type": "ES_MOE",
+      "num_experts": 4,
+      "top_k": 2,
+      "num_samples": 208,
+      "expert_hit_counts": [
+        0,
+        208,
+        208,
+        0
+      ],
+      "expert_hit_percentages": [
+        0.0,
+        100.0,
+        100.0,
+        0.0
+      ],
+      "co_occurrence_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          208,
+          208,
+          0
+        ],
+        [
+          0,
+          208,
+          208,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "module_type": "ES_MOE",
+      "num_experts": 4,
+      "top_k": 2,
+      "num_samples": 208,
+      "expert_hit_counts": [
+        146,
+        47,
+        158,
+        65
+      ],
+      "expert_hit_percentages": [
+        70.19230651855469,
+        22.596153259277344,
+        75.96153259277344,
+        31.25
+      ],
+      "co_occurrence_matrix": [
+        [
+          146,
+          47,
+          96,
+          3
+        ],
+        [
+          47,
+          47,
+          0,
+          0
+        ],
+        [
+          96,
+          0,
+          158,
+          62
+        ],
+        [
+          3,
+          0,
+          62,
+          65
+        ]
+      ]
+    }
+  },
+  "differentiation": {
+    "model.3": {
+      "layer_name": "model.3",
+      "module_type": "ES_MOE",
+      "num_samples": 208,
+      "mean_kl_divergence": 0.6995043754577637,
+      "std_kl_divergence": 0.0011337165487930179,
+      "mean_weight_spread": 0.11219244450330734,
+      "std_weight_spread": 0.009989588521420956
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "module_type": "ES_MOE",
+      "num_samples": 208,
+      "mean_kl_divergence": 0.6986391544342041,
+      "std_kl_divergence": 0.0011149441124871373,
+      "mean_weight_spread": 0.1041848286986351,
+      "std_weight_spread": 0.010438145138323307
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "module_type": "ES_MOE",
+      "num_samples": 208,
+      "mean_kl_divergence": 0.6933187246322632,
+      "std_kl_divergence": 0.00014391611330211163,
+      "mean_weight_spread": 0.016629217192530632,
+      "std_weight_spread": 0.008168869651854038
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "module_type": "ES_MOE",
+      "num_samples": 208,
+      "mean_kl_divergence": 0.6995724439620972,
+      "std_kl_divergence": 0.006471539847552776,
+      "mean_weight_spread": 0.09842725843191147,
+      "std_weight_spread": 0.055876657366752625
+    }
+  },
+  "collapse": {
+    "model.3": {
+      "layer_name": "model.3",
+      "expert_usage": [
+        0.5560962195244458,
+        0.44390378047555423,
+        0.0,
+        0.0
+      ],
+      "dominant_expert": 0,
+      "dominant_share": 0.5560962195244458,
+      "normalized_gini": 0.7040641463496305,
+      "normalized_entropy": 0.4954505754270438,
+      "dead_experts": [
+        2,
+        3
+      ],
+      "collapsed": true
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "expert_usage": [
+        0.5520924159969797,
+        0.0,
+        0.0,
+        0.4479075840030204
+      ],
+      "dominant_expert": 0,
+      "dominant_share": 0.5520924159969797,
+      "normalized_gini": 0.7013949439979866,
+      "normalized_entropy": 0.4960779608214211,
+      "dead_experts": [
+        1,
+        2
+      ],
+      "collapsed": true
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "expert_usage": [
+        0.0,
+        0.5079004628421122,
+        0.49209953715788773,
+        0.0
+      ],
+      "dominant_expert": 1,
+      "dominant_share": 0.5079004628421122,
+      "normalized_gini": 0.6719336418947414,
+      "normalized_entropy": 0.4999099471044386,
+      "dead_experts": [
+        0,
+        3
+      ],
+      "collapsed": true
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "expert_usage": [
+        0.37036570929464574,
+        0.096163442542847,
+        0.3941717672503699,
+        0.13929908091213739
+      ],
+      "dominant_expert": 2,
+      "dominant_share": 0.3941717672503699,
+      "normalized_gini": 0.3750305341683591,
+      "normalized_entropy": 0.8905727250012203,
+      "dead_experts": [],
+      "collapsed": false
+    }
+  }
+}

@@ -1,0 +1,837 @@
+{
+  "total_test_images": 141,
+  "total_boundary": 76,
+  "fn_all": 0,
+  "low_conf": 76,
+  "over_pred": 0,
+  "cases": [
+    {
+      "image": "image10.jpeg",
+      "type": "LOW_CONF",
+      "gt_count": 6,
+      "pred_count": 13,
+      "low_conf_preds": [
+        {
+          "class": "helmet",
+          "conf": 0.386
+        },
+        {
+          "class": "boots",
+          "conf": 0.291
+        },
+        {
+          "class": "boots",
+          "conf": 0.274
+        },
+        {
+          "class": "helmet",
+          "conf": 0.256
+        },
+        {
+          "class": "boots",
+          "conf": 0.253
+        }
+      ]
+    },
+    {
+      "image": "image1007.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 10,
+      "low_conf_preds": [
+        {
+          "class": "boots",
+          "conf": 0.293
+        }
+      ]
+    },
+    {
+      "image": "image1009.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 5,
+      "pred_count": 7,
+      "low_conf_preds": [
+        {
+          "class": "gloves",
+          "conf": 0.382
+        }
+      ]
+    },
+    {
+      "image": "image1037.jpeg",
+      "type": "LOW_CONF",
+      "gt_count": 25,
+      "pred_count": 19,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.385
+        },
+        {
+          "class": "Person",
+          "conf": 0.33
+        },
+        {
+          "class": "boots",
+          "conf": 0.325
+        },
+        {
+          "class": "boots",
+          "conf": 0.315
+        },
+        {
+          "class": "boots",
+          "conf": 0.311
+        },
+        {
+          "class": "Person",
+          "conf": 0.283
+        },
+        {
+          "class": "boots",
+          "conf": 0.263
+        },
+        {
+          "class": "boots",
+          "conf": 0.257
+        },
+        {
+          "class": "gloves",
+          "conf": 0.256
+        }
+      ]
+    },
+    {
+      "image": "image110.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 10,
+      "pred_count": 11,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.392
+        },
+        {
+          "class": "vest",
+          "conf": 0.335
+        },
+        {
+          "class": "helmet",
+          "conf": 0.253
+        },
+        {
+          "class": "Person",
+          "conf": 0.253
+        }
+      ]
+    },
+    {
+      "image": "image1120.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 4,
+      "pred_count": 4,
+      "low_conf_preds": [
+        {
+          "class": "helmet",
+          "conf": 0.291
+        },
+        {
+          "class": "helmet",
+          "conf": 0.254
+        }
+      ]
+    },
+    {
+      "image": "image1125.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 11,
+      "pred_count": 3,
+      "low_conf_preds": [
+        {
+          "class": "vest",
+          "conf": 0.267
+        },
+        {
+          "class": "Person",
+          "conf": 0.253
+        }
+      ]
+    },
+    {
+      "image": "image1132.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 3,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.287
+        }
+      ]
+    },
+    {
+      "image": "image1133.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 5,
+      "pred_count": 5,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.368
+        },
+        {
+          "class": "no_helmet",
+          "conf": 0.291
+        }
+      ]
+    },
+    {
+      "image": "image1145.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 37,
+      "pred_count": 11,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.396
+        },
+        {
+          "class": "vest",
+          "conf": 0.346
+        },
+        {
+          "class": "none",
+          "conf": 0.296
+        }
+      ]
+    },
+    {
+      "image": "image1152.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 6,
+      "pred_count": 4,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.297
+        }
+      ]
+    },
+    {
+      "image": "image116.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 18,
+      "pred_count": 12,
+      "low_conf_preds": [
+        {
+          "class": "helmet",
+          "conf": 0.361
+        },
+        {
+          "class": "Person",
+          "conf": 0.347
+        },
+        {
+          "class": "vest",
+          "conf": 0.332
+        }
+      ]
+    },
+    {
+      "image": "image1205.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 11,
+      "pred_count": 7,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.387
+        },
+        {
+          "class": "Person",
+          "conf": 0.312
+        }
+      ]
+    },
+    {
+      "image": "image1231.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 11,
+      "pred_count": 6,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.281
+        }
+      ]
+    },
+    {
+      "image": "image1235.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 15,
+      "pred_count": 4,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.371
+        },
+        {
+          "class": "Person",
+          "conf": 0.317
+        },
+        {
+          "class": "no_helmet",
+          "conf": 0.302
+        }
+      ]
+    },
+    {
+      "image": "image1239.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 21,
+      "pred_count": 9,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.364
+        },
+        {
+          "class": "Person",
+          "conf": 0.312
+        },
+        {
+          "class": "Person",
+          "conf": 0.303
+        }
+      ]
+    },
+    {
+      "image": "image1252.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 5,
+      "pred_count": 2,
+      "low_conf_preds": [
+        {
+          "class": "no_helmet",
+          "conf": 0.301
+        }
+      ]
+    },
+    {
+      "image": "image1256.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 22,
+      "pred_count": 11,
+      "low_conf_preds": [
+        {
+          "class": "boots",
+          "conf": 0.299
+        },
+        {
+          "class": "boots",
+          "conf": 0.28
+        },
+        {
+          "class": "no_goggle",
+          "conf": 0.252
+        }
+      ]
+    },
+    {
+      "image": "image1264.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 32,
+      "pred_count": 4,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.394
+        },
+        {
+          "class": "none",
+          "conf": 0.374
+        },
+        {
+          "class": "Person",
+          "conf": 0.309
+        }
+      ]
+    },
+    {
+      "image": "image1270.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 14,
+      "pred_count": 5,
+      "low_conf_preds": [
+        {
+          "class": "no_helmet",
+          "conf": 0.377
+        },
+        {
+          "class": "Person",
+          "conf": 0.339
+        }
+      ]
+    },
+    {
+      "image": "image1276.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 6,
+      "pred_count": 3,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.393
+        },
+        {
+          "class": "no_helmet",
+          "conf": 0.287
+        }
+      ]
+    },
+    {
+      "image": "image1292.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 6,
+      "pred_count": 3,
+      "low_conf_preds": [
+        {
+          "class": "no_helmet",
+          "conf": 0.355
+        }
+      ]
+    },
+    {
+      "image": "image1293.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 5,
+      "pred_count": 2,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.393
+        }
+      ]
+    },
+    {
+      "image": "image1306.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 9,
+      "pred_count": 5,
+      "low_conf_preds": [
+        {
+          "class": "no_helmet",
+          "conf": 0.312
+        },
+        {
+          "class": "none",
+          "conf": 0.288
+        }
+      ]
+    },
+    {
+      "image": "image1332.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 6,
+      "pred_count": 3,
+      "low_conf_preds": [
+        {
+          "class": "none",
+          "conf": 0.255
+        }
+      ]
+    },
+    {
+      "image": "image1344.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 4,
+      "pred_count": 3,
+      "low_conf_preds": [
+        {
+          "class": "no_helmet",
+          "conf": 0.251
+        }
+      ]
+    },
+    {
+      "image": "image1354.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 13,
+      "pred_count": 8,
+      "low_conf_preds": [
+        {
+          "class": "helmet",
+          "conf": 0.394
+        },
+        {
+          "class": "no_helmet",
+          "conf": 0.311
+        }
+      ]
+    },
+    {
+      "image": "image140.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 6,
+      "pred_count": 7,
+      "low_conf_preds": [
+        {
+          "class": "helmet",
+          "conf": 0.282
+        }
+      ]
+    },
+    {
+      "image": "image1406.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 5,
+      "pred_count": 3,
+      "low_conf_preds": [
+        {
+          "class": "helmet",
+          "conf": 0.25
+        }
+      ]
+    },
+    {
+      "image": "image149.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 15,
+      "pred_count": 8,
+      "low_conf_preds": [
+        {
+          "class": "boots",
+          "conf": 0.262
+        }
+      ]
+    },
+    {
+      "image": "image150.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 7,
+      "low_conf_preds": [
+        {
+          "class": "helmet",
+          "conf": 0.294
+        }
+      ]
+    },
+    {
+      "image": "image160.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 5,
+      "pred_count": 8,
+      "low_conf_preds": [
+        {
+          "class": "gloves",
+          "conf": 0.384
+        },
+        {
+          "class": "gloves",
+          "conf": 0.297
+        }
+      ]
+    },
+    {
+      "image": "image167.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 21,
+      "pred_count": 21,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.358
+        },
+        {
+          "class": "boots",
+          "conf": 0.313
+        },
+        {
+          "class": "vest",
+          "conf": 0.292
+        },
+        {
+          "class": "Person",
+          "conf": 0.284
+        },
+        {
+          "class": "vest",
+          "conf": 0.269
+        },
+        {
+          "class": "boots",
+          "conf": 0.255
+        },
+        {
+          "class": "Person",
+          "conf": 0.254
+        },
+        {
+          "class": "vest",
+          "conf": 0.251
+        }
+      ]
+    },
+    {
+      "image": "image180.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 4,
+      "low_conf_preds": [
+        {
+          "class": "vest",
+          "conf": 0.335
+        }
+      ]
+    },
+    {
+      "image": "image182.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 42,
+      "pred_count": 12,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.363
+        },
+        {
+          "class": "helmet",
+          "conf": 0.32
+        },
+        {
+          "class": "helmet",
+          "conf": 0.273
+        }
+      ]
+    },
+    {
+      "image": "image231.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 4,
+      "pred_count": 4,
+      "low_conf_preds": [
+        {
+          "class": "helmet",
+          "conf": 0.363
+        },
+        {
+          "class": "helmet",
+          "conf": 0.316
+        }
+      ]
+    },
+    {
+      "image": "image241.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 8,
+      "low_conf_preds": [
+        {
+          "class": "gloves",
+          "conf": 0.321
+        }
+      ]
+    },
+    {
+      "image": "image257.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 9,
+      "low_conf_preds": [
+        {
+          "class": "gloves",
+          "conf": 0.342
+        },
+        {
+          "class": "goggles",
+          "conf": 0.333
+        }
+      ]
+    },
+    {
+      "image": "image324.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 20,
+      "pred_count": 18,
+      "low_conf_preds": [
+        {
+          "class": "boots",
+          "conf": 0.387
+        },
+        {
+          "class": "gloves",
+          "conf": 0.311
+        },
+        {
+          "class": "boots",
+          "conf": 0.31
+        },
+        {
+          "class": "helmet",
+          "conf": 0.254
+        }
+      ]
+    },
+    {
+      "image": "image361.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 6,
+      "pred_count": 8,
+      "low_conf_preds": [
+        {
+          "class": "gloves",
+          "conf": 0.285
+        }
+      ]
+    },
+    {
+      "image": "image381.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 7,
+      "pred_count": 7,
+      "low_conf_preds": [
+        {
+          "class": "goggles",
+          "conf": 0.295
+        }
+      ]
+    },
+    {
+      "image": "image389.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 7,
+      "low_conf_preds": [
+        {
+          "class": "gloves",
+          "conf": 0.368
+        }
+      ]
+    },
+    {
+      "image": "image450.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 14,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.372
+        },
+        {
+          "class": "Person",
+          "conf": 0.293
+        },
+        {
+          "class": "Person",
+          "conf": 0.286
+        },
+        {
+          "class": "vest",
+          "conf": 0.266
+        }
+      ]
+    },
+    {
+      "image": "image459.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 7,
+      "pred_count": 3,
+      "low_conf_preds": [
+        {
+          "class": "vest",
+          "conf": 0.364
+        }
+      ]
+    },
+    {
+      "image": "image462.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 24,
+      "pred_count": 16,
+      "low_conf_preds": [
+        {
+          "class": "vest",
+          "conf": 0.367
+        },
+        {
+          "class": "vest",
+          "conf": 0.355
+        },
+        {
+          "class": "vest",
+          "conf": 0.338
+        },
+        {
+          "class": "Person",
+          "conf": 0.322
+        }
+      ]
+    },
+    {
+      "image": "image470.jpeg",
+      "type": "LOW_CONF",
+      "gt_count": 4,
+      "pred_count": 5,
+      "low_conf_preds": [
+        {
+          "class": "Person",
+          "conf": 0.297
+        },
+        {
+          "class": "Person",
+          "conf": 0.253
+        }
+      ]
+    },
+    {
+      "image": "image481.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 12,
+      "pred_count": 10,
+      "low_conf_preds": [
+        {
+          "class": "boots",
+          "conf": 0.285
+        }
+      ]
+    },
+    {
+      "image": "image502.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 7,
+      "pred_count": 9,
+      "low_conf_preds": [
+        {
+          "class": "goggles",
+          "conf": 0.306
+        }
+      ]
+    },
+    {
+      "image": "image517.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 8,
+      "pred_count": 8,
+      "low_conf_preds": [
+        {
+          "class": "goggles",
+          "conf": 0.372
+        }
+      ]
+    },
+    {
+      "image": "image533.jpg",
+      "type": "LOW_CONF",
+      "gt_count": 14,
+      "pred_count": 7,
+      "low_conf_preds": [
+        {
+          "class": "vest",
+          "conf": 0.338
+        }
+      ]
+    }
+  ]
+}

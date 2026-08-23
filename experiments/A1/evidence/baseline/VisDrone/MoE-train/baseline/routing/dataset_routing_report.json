@@ -1,0 +1,293 @@
+{
+  "model": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/baseline/best.pt",
+  "dataset": "VisDrone.yaml",
+  "num_samples": 548,
+  "sparse_topk": {
+    "model.3": {
+      "layer_name": "model.3",
+      "module_type": "ES_MOE",
+      "num_experts": 4,
+      "top_k": 2,
+      "num_samples": 548,
+      "expert_hit_counts": [
+        548,
+        548,
+        0,
+        0
+      ],
+      "expert_hit_percentages": [
+        100.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "co_occurrence_matrix": [
+        [
+          548,
+          548,
+          0,
+          0
+        ],
+        [
+          548,
+          548,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "module_type": "ES_MOE",
+      "num_experts": 4,
+      "top_k": 2,
+      "num_samples": 548,
+      "expert_hit_counts": [
+        548,
+        548,
+        0,
+        0
+      ],
+      "expert_hit_percentages": [
+        100.0,
+        100.0,
+        0.0,
+        0.0
+      ],
+      "co_occurrence_matrix": [
+        [
+          548,
+          548,
+          0,
+          0
+        ],
+        [
+          548,
+          548,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "module_type": "ES_MOE",
+      "num_experts": 4,
+      "top_k": 2,
+      "num_samples": 548,
+      "expert_hit_counts": [
+        521,
+        511,
+        36,
+        28
+      ],
+      "expert_hit_percentages": [
+        95.07299041748047,
+        93.24817657470703,
+        6.569343090057373,
+        5.1094889640808105
+      ],
+      "co_occurrence_matrix": [
+        [
+          521,
+          484,
+          36,
+          1
+        ],
+        [
+          484,
+          511,
+          0,
+          27
+        ],
+        [
+          36,
+          0,
+          36,
+          0
+        ],
+        [
+          1,
+          27,
+          0,
+          28
+        ]
+      ]
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "module_type": "ES_MOE",
+      "num_experts": 4,
+      "top_k": 2,
+      "num_samples": 548,
+      "expert_hit_counts": [
+        298,
+        511,
+        53,
+        234
+      ],
+      "expert_hit_percentages": [
+        54.37956619262695,
+        93.24817657470703,
+        9.671533584594727,
+        42.70072937011719
+      ],
+      "co_occurrence_matrix": [
+        [
+          298,
+          266,
+          6,
+          26
+        ],
+        [
+          266,
+          511,
+          42,
+          203
+        ],
+        [
+          6,
+          42,
+          53,
+          5
+        ],
+        [
+          26,
+          203,
+          5,
+          234
+        ]
+      ]
+    }
+  },
+  "differentiation": {
+    "model.3": {
+      "layer_name": "model.3",
+      "module_type": "ES_MOE",
+      "num_samples": 548,
+      "mean_kl_divergence": 0.6936219930648804,
+      "std_kl_divergence": 0.0005263890489004552,
+      "mean_weight_spread": 0.02592531591653824,
+      "std_weight_spread": 0.016664141789078712
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "module_type": "ES_MOE",
+      "num_samples": 548,
+      "mean_kl_divergence": 0.6932209730148315,
+      "std_kl_divergence": 4.783454642165452e-05,
+      "mean_weight_spread": 0.011394809931516647,
+      "std_weight_spread": 0.004195811226963997
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "module_type": "ES_MOE",
+      "num_samples": 548,
+      "mean_kl_divergence": 0.6940729022026062,
+      "std_kl_divergence": 0.0011519966647028923,
+      "mean_weight_spread": 0.0348811000585556,
+      "std_weight_spread": 0.025188449770212173
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "module_type": "ES_MOE",
+      "num_samples": 548,
+      "mean_kl_divergence": 0.710594654083252,
+      "std_kl_divergence": 0.016263972967863083,
+      "mean_weight_spread": 0.1639091670513153,
+      "std_weight_spread": 0.08752791583538055
+    }
+  },
+  "collapse": {
+    "model.3": {
+      "layer_name": "model.3",
+      "expert_usage": [
+        0.4880356141272851,
+        0.5119643858727149,
+        0.0,
+        0.0
+      ],
+      "dominant_expert": 1,
+      "dominant_share": 0.5119643858727149,
+      "normalized_gini": 0.6746429239151434,
+      "normalized_entropy": 0.4997934634994194,
+      "dead_experts": [
+        2,
+        3
+      ],
+      "collapsed": true
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "expert_usage": [
+        0.5055570939756646,
+        0.4944429060243354,
+        0.0,
+        0.0
+      ],
+      "dominant_expert": 0,
+      "dominant_share": 0.5055570939756646,
+      "normalized_gini": 0.6703713959837764,
+      "normalized_entropy": 0.49995544679381027,
+      "dead_experts": [
+        2,
+        3
+      ],
+      "collapsed": true
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "expert_usage": [
+        0.48218082453129923,
+        0.46358819589277456,
+        0.029874038931088476,
+        0.02435694064483776
+      ],
+      "dominant_expert": 0,
+      "dominant_share": 0.48218082453129923,
+      "normalized_gini": 0.6023952695403564,
+      "normalized_entropy": 0.6517178607088863,
+      "dead_experts": [],
+      "collapsed": false
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "expert_usage": [
+        0.23101663848289103,
+        0.5422853200394331,
+        0.03892835099257967,
+        0.18776969048509617
+      ],
+      "dominant_expert": 1,
+      "dominant_share": 0.5422853200394331,
+      "normalized_gini": 0.5177726183794521,
+      "normalized_entropy": 0.8012541522135909,
+      "dead_experts": [],
+      "collapsed": false
+    }
+  }
+}

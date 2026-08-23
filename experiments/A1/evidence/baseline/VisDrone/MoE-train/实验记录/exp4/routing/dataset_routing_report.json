@@ -1,0 +1,245 @@
+{
+  "model": "/root/workspace/YOLO-Master-docs/issue2/VisDrone/MoE-train/\u5b9e\u9a8c\u8bb0\u5f55/exp4/weights/last.pt",
+  "dataset": "VisDrone.yaml",
+  "num_samples": 548,
+  "sparse_topk": {
+    "model.3": {
+      "layer_name": "model.3",
+      "module_type": "ES_MOE",
+      "num_experts": 3,
+      "top_k": 2,
+      "num_samples": 548,
+      "expert_hit_counts": [
+        0,
+        548,
+        548
+      ],
+      "expert_hit_percentages": [
+        0.0,
+        100.0,
+        100.0
+      ],
+      "co_occurrence_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          548,
+          548
+        ],
+        [
+          0,
+          548,
+          548
+        ]
+      ]
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "module_type": "ES_MOE",
+      "num_experts": 3,
+      "top_k": 2,
+      "num_samples": 548,
+      "expert_hit_counts": [
+        0,
+        548,
+        548
+      ],
+      "expert_hit_percentages": [
+        0.0,
+        100.0,
+        100.0
+      ],
+      "co_occurrence_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          548,
+          548
+        ],
+        [
+          0,
+          548,
+          548
+        ]
+      ]
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "module_type": "ES_MOE",
+      "num_experts": 3,
+      "top_k": 2,
+      "num_samples": 548,
+      "expert_hit_counts": [
+        0,
+        548,
+        548
+      ],
+      "expert_hit_percentages": [
+        0.0,
+        100.0,
+        100.0
+      ],
+      "co_occurrence_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          548,
+          548
+        ],
+        [
+          0,
+          548,
+          548
+        ]
+      ]
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "module_type": "ES_MOE",
+      "num_experts": 3,
+      "top_k": 2,
+      "num_samples": 548,
+      "expert_hit_counts": [
+        242,
+        375,
+        479
+      ],
+      "expert_hit_percentages": [
+        44.16058349609375,
+        68.43065643310547,
+        87.40876007080078
+      ],
+      "co_occurrence_matrix": [
+        [
+          242,
+          69,
+          173
+        ],
+        [
+          69,
+          375,
+          306
+        ],
+        [
+          173,
+          306,
+          479
+        ]
+      ]
+    }
+  },
+  "differentiation": {
+    "model.3": {
+      "layer_name": "model.3",
+      "module_type": "ES_MOE",
+      "num_samples": 548,
+      "mean_kl_divergence": 0.40587615966796875,
+      "std_kl_divergence": 0.0006514487904496491,
+      "mean_weight_spread": 0.022708408534526825,
+      "std_weight_spread": 0.017509635537862778
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "module_type": "ES_MOE",
+      "num_samples": 548,
+      "mean_kl_divergence": 0.40756598114967346,
+      "std_kl_divergence": 0.00043867583735845983,
+      "mean_weight_spread": 0.0644347071647644,
+      "std_weight_spread": 0.006851153913885355
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "module_type": "ES_MOE",
+      "num_samples": 548,
+      "mean_kl_divergence": 0.4058735966682434,
+      "std_kl_divergence": 0.00040010359953157604,
+      "mean_weight_spread": 0.024911457672715187,
+      "std_weight_spread": 0.014017140492796898
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "module_type": "ES_MOE",
+      "num_samples": 548,
+      "mean_kl_divergence": 0.41280001401901245,
+      "std_kl_divergence": 0.012055747210979462,
+      "mean_weight_spread": 0.09092797338962555,
+      "std_weight_spread": 0.07924589514732361
+    }
+  },
+  "collapse": {
+    "model.3": {
+      "layer_name": "model.3",
+      "expert_usage": [
+        0.0,
+        0.5093144368301196,
+        0.4906855631698804
+      ],
+      "dominant_expert": 1,
+      "dominant_share": 0.5093144368301196,
+      "normalized_gini": 0.5093144368301196,
+      "normalized_entropy": 0.630771802030034,
+      "dead_experts": [
+        0
+      ],
+      "collapsed": true
+    },
+    "model.6": {
+      "layer_name": "model.6",
+      "expert_usage": [
+        0.0,
+        0.5321569255181172,
+        0.4678430744818827
+      ],
+      "dominant_expert": 1,
+      "dominant_share": 0.5321569255181172,
+      "normalized_gini": 0.532156925518117,
+      "normalized_entropy": 0.6290459554094747,
+      "dead_experts": [
+        0
+      ],
+      "collapsed": true
+    },
+    "model.9": {
+      "layer_name": "model.9",
+      "expert_usage": [
+        0.0,
+        0.5112100521289942,
+        0.4887899478710058
+      ],
+      "dominant_expert": 1,
+      "dominant_share": 0.5112100521289942,
+      "normalized_gini": 0.5112100521289942,
+      "normalized_entropy": 0.6307009634878432,
+      "dead_experts": [
+        0
+      ],
+      "collapsed": true
+    },
+    "model.12": {
+      "layer_name": "model.12",
+      "expert_usage": [
+        0.18998906738588256,
+        0.35180095922766075,
+        0.45820997338645664
+      ],
+      "dominant_expert": 2,
+      "dominant_share": 0.45820997338645664,
+      "normalized_gini": 0.26822090600057413,
+      "normalized_entropy": 0.9472443891654054,
+      "dead_experts": [],
+      "collapsed": false
+    }
+  }
+}

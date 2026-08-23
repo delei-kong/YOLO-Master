@@ -1,0 +1,2 @@
+dataset,model,cfg,run_dir,dense_eval,epoch,metrics/precision(B),metrics/recall(B),metrics/mAP50(B),metrics/mAP50-95(B),train/box_loss,train/cls_loss,train/dfl_loss,train/moe_loss,val/box_loss,val/cls_loss,val/dfl_loss,val/moe_loss
+construction-ppe,EsMoE-N,ultralytics/cfg/models/master/v0/det/yolo-master-n.yaml,runs/reproduce/ppe/construction-ppe_EsMoE-N,True,200,0.68512,0.49375,0.52806,0.26604,1.44215,0.98125,1.68854,1,1.90083,1.29298,2.13055,0
