@@ -8,6 +8,7 @@
 
 ## 关键约定
 
+- **Commit 纪律**：永远不要直接执行 `git commit`；先将 commit 注释展示给用户审查，得到明确确认后才可提交
 - **代码风格**：Ruff（line-length=120、Google docstring），变更后务必运行 `ruff check` 和 `ruff format --check`
 - **测试选择**：按变更区域选择测试，不要每次跑全量。参见 AGENTS.md 的"任务路由"表
 - **Doctest**：`pytest --doctest-modules` 默认启用，新增公共函数需附带可运行 doctest
